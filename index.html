@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IceCream Company </title>
+    <link rel="stylesheet" href="clasesitio.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet"> 
+    <link rel="icon" href="img/favicon.ico">
+
+    <style>
+        @media screen and (max-width: 480px){
+            .titulo{
+                font-size:40px;
+                margin-top: 30px;
+                margin-bottom: 19px;
+            }
+            .logo{
+                width: 40px;
+                height: 40px;
+                padding-top: 12px;
+            }
+
+            .menu{
+                margin-top:5px;
+            }
+
+            .boton{
+                font-size: 13px;
+                margin: 5px;
+            }
+            
+            .texto_inicio{
+                margin-top: 25px;
+                margin-bottom: 0;
+                margin-right: 0;
+                margin-left: 0;
+                font-size: 45px;
+            }
+
+            .imagen_inicio{
+                width: 260px;
+                height: 170px;
+                margin-left: 0;
+                margin-top:30px ;
+                margin-bottom: 0px;
+                display: flex;
+                transform: rotate(360deg);
+            }
+
+            .flexcontainer{
+                margin-top: 30px;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 0px;
+            }
+
+            .izqcontainer{
+                margin-right: 0;
+            }
+
+            .texto_segundo{
+                margin-top: 30px;
+                font-size: 17px;
+                line-height: 50px;
+            }
+
+            .texto_tercero{
+                margin:0;
+                font-size: 17px;
+                line-height: 50px;
+            }
+        }
+    </style>
+    
+</head>
+
+<body>
+    <header class="cabecera">
+        <h1 class="titulo">IceCream Company</h1>
+        <img class="logo" src = "img/logoheladeria.png" alt="logo IceCream Company">
+    </header>  
+
+
+    <ul class="menu">
+        <li><a class="boton" href="index.html">INICIO</a></li>
+        <li><a class="boton" href="sabores.html">SABORES</a></li>
+        <li><a class="boton" href="sobrenosotros.html">NOSOTROS</a></li>
+        <li><a class="boton" href="contacto.html">CONTACTO</a></li>
+    </ul>
+       
+
+
+    <div class="flexcontainer">
+        <div class="izqcontainer">
+            <div class="texto_inicio"> BIENVENIDOS A NUESTRA <br>HELADERIA ARTESANAL</div>
+            <h3 class="texto_segundo">Dirección: Sanchez de Bustamante 2425 <br> Todos los días de 7hs a 00hs </h3>
+            <a class="texto_tercero" href="sabores.html">Conoce nuestros sabores</a>
+        </div>
+
+        <img class="imagen_inicio" src="img/photo4.jpg" alt="imagen helados">
+
+    </div>
+
+
+
+    <footer class="piedepagina">
+       <p>Todos los derechos reservados ©</p>
+    </footer>
+
+
+</body>
+
+</html>

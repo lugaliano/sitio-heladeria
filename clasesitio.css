@@ -1,0 +1,134 @@
+body{
+    background-color: #287E53;
+    margin:0;
+    position:relative;
+    padding-bottom: 3em;
+    min-height: 100vh;
+    font-family: none;
+}
+
+.piedepagina{
+    width: 100%;
+    background-color: #184A31;
+    text-align: center;
+    position: absolute;
+    bottom:0;
+    color: #F2F8F5;
+    font-size: 14px;
+}
+
+.cabecera{
+    width: 100%;
+    height: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo{
+    font-family:'Amatic SC', cursive;
+    font-size: clamp(40px, 8vw, 75px);
+    color: #F0C510;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 35px;
+    margin-bottom: 24px;
+    padding-top: 0px;
+}
+
+.logo{
+    width: 7.1%;
+    height: auto;
+    padding-left: 5px;
+    padding-top: 18px;
+}
+
+
+.menu{
+    padding:0.5%;
+    margin-top:11px;
+    margin-bottom:0;
+    background-color: #F2F8F5;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+li {
+    display: inline;
+}
+
+
+.boton{
+    color:#414342;
+    text-decoration: none;
+    font-family: "Alatsi";
+    font-size: 17px;
+}
+
+
+/* flex container */
+.flexcontainer {  
+    display: flex;
+    justify-content:center;
+    margin-bottom: 10px;
+    flex-direction: row;
+}
+
+.texto_inicio{
+    font-size: 70px;
+    font-family:'Amatic SC', cursive;
+    color: #F2F8F5;
+    margin-top: 100px;
+    text-align:center;
+    justify-content: center;
+}
+
+
+.imagen_inicio{
+    width: 25em;
+    height: 18em;
+    display: block;
+    transform:rotate(90deg);
+    margin-top: 140px;
+    margin-bottom: 105px;
+    border-radius: 15px;
+
+    margin-left: 30px;
+}
+
+.izqcontainer{
+    flex-direction:column;
+    margin-right: 30px;
+}
+
+.texto_segundo{
+    margin-top: 60px;
+
+    font-family: "Alatsi";
+    font-size: 20px;
+    color:#FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 30px;
+
+    text-align:center;
+    justify-content: center;
+
+    display: flex;
+}
+
+.texto_tercero{
+    margin-top: 60px;
+
+    font-family: "Alatsi";
+    font-size: 20px;
+    color:#FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 30px;
+
+    text-align:center;
+    justify-content: center;
+
+    display: flex;
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IceCream Company </title>
+    <link rel="icon" href="img/favicon.ico">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="clasesitio.css">
+    <link rel="stylesheet" href="sobrenosotros.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet"> 
+    
+
+    <style>
+        @media screen and (max-width: 480px){
+            .titulo{
+                font-size:40px;
+                margin-top: 30px;
+                margin-bottom: 19px;
+            }
+            .logo{
+                width: 40px;
+                height: 40px;
+                padding-top: 12px;
+            }
+
+            .menu{
+                margin-top:5px;
+            }
+
+            .boton{
+                font-size: 13px;
+                margin: 5px;
+            }
+
+            .contenedorimg{
+                flex-direction: column;
+                justify-items: center;
+                display: grid;
+            }
+
+            .imagen_ultima{
+                margin-right: 0;
+                margin-bottom: 0;
+                width: 15em;
+                height: 9em;
+            }
+            .imagen_ultima2{
+                margin-left: 0;
+                margin-bottom: 80px;
+                width: 15em;
+                height: 9em;
+            }
+
+            .titulopagina2{
+                margin-top:30px;
+                font-size: 13px;
+                line-height: 32px;
+            }
+
+            .contenido{
+                margin-top:5px;
+                font-size: 12px;
+                line-height: 32px;
+                margin-left:20px ;
+                margin-right:20px ;
+            }
+
+            .slide{
+                margin-top:50px;
+                margin-bottom: 50px;
+                padding-left:30px ;
+                padding-right: 30px;
+            }
+
+            .slide img {
+                height: 26vh;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <header class="cabecera">
+        <h1 class="titulo" id="grosor">IceCream Company</h1>
+        <img class="logo" id="tamaño" src = "img/logoheladeria.png" alt="logo IceCream Company">
+    </header>  
+
+
+    <ul id="gromenu" class="menu">
+        <li><a class="boton" href="index.html">INICIO</a></li>
+        <li><a class="boton" href="sabores.html">SABORES</a></li>
+        <li><a class="boton" href="sobrenosotros.html">NOSOTROS</a></li>
+        <li><a class="boton" href="contacto.html">CONTACTO</a></li>
+    </ul>
+
+    <div class="titulopagina2">
+        <h2>¿Quiénes somos?</h2>
+    </div>
+    
+    <div class="contenido">
+        <h2>¡Hola y bienvenidos a nuestro sitio web!
+            Somos un grupo de amigos apasionados por el helado, residentes en Buenos Aires  y todos los días 
+            nos dedicamos a hacer Ice Cream Company un poco mejor :)
+            <br>Esperamos que haya disfrutado explorando nuestro sitio web!</h2>
+    </div>
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/primera.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/segunda.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/tercera.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <footer class="piedepagina">
+        <p> <br> Todos los derechos reservados ©</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>   
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

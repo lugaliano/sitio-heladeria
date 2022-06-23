@@ -1,0 +1,85 @@
+*, ::after, ::before {
+    box-sizing: unset;
+  }
+
+#grosor{
+    font-weight: revert;
+}
+
+#gromenu{
+    line-height:initial;
+}
+
+.tamaño{
+    width: 7.1%;
+    height: auto;
+    padding-left: 5px;
+    padding-top: 18px;
+    box-sizing: unset;
+}
+
+.titulopagina2{
+    margin-top: 80px;
+    margin-bottom: 10px;
+    font-family:"Alatsi";
+    font-size: 20px;
+    text-align: center;
+    color:#FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 51px;
+}
+
+.contenido{
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    font-family:"Alatsi";
+    font-size: 17px;
+    text-align: center;
+    color:#FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    line-height: 51px;
+}
+
+
+h2{
+    margin:0;
+}
+
+.imagen_ultima{
+    width: 20em;
+    height: 14em;
+    border-radius: 15px;
+    margin-bottom: 110px;
+    margin-top: 30px;
+    margin-right:35px;
+}
+.imagen_ultima2{
+    margin-top: 30px;
+    width: 20em;
+    height: 14em;
+    border-radius: 15px;
+    margin-bottom: 110px;
+    margin-left: 35px;
+}
+
+.contenedorimg{
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+}
+
+
+/* carrousel */
+
+.slide{
+    margin-top:50px;
+    margin-bottom: 50px;
+    padding-left:200px ;
+    padding-right: 200px;
+}
+
+.slide img {
+    height: 56vh;
+}
